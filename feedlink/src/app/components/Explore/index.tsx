@@ -58,7 +58,7 @@ export default function BuiltSection() {
           Whether you're producing, consuming, or recycling food, our platform
           has solutions tailored to your needs and goals.
         </p>
-        <Link href="/join">
+        <Link href="#contacts">
           <button className="bg-white text-[var(--primary-color)] px-18 py-2 font-bold rounded-xl hover:bg-[var(--secondary-color)] hover:text-white transition cursor-pointer text-2xl">
             Join Us
           </button>
