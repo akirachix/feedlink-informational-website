@@ -34,14 +34,14 @@ const FAQ = () => {
   };
 
   return (
-    <div className="
+    <div id="faq" className="
       max-w-7xl mx-auto 
       p-6 
       sm:px-8 
       md:px-16 
       xl:px-32 
     ">
-      <h1 className="text-5xl font-bold mb-6 text-[var(--primary-color)] text-center">Frequently Asked Questions</h1>
+      <h1 className="text-4xl font-bold mb-6 text-[var(--primary-color)] text-center">Frequently Asked Questions</h1>
       
       {FAQITEMS.map((item: FAQItem, index: number) => (
         <div key={index} className="mb-4 rounded-4xl overflow-hidden bg-[var(--secondary-color)]">

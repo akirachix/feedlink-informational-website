@@ -34,7 +34,7 @@ export default function Contacts() {
       id="contacts"
       className="min-h-screen bg-white flex flex-col items-center pt-10 px-4 md:px-8"
     >
-      <h1 className="text-5xl font-bold mb-6 text-[var(--primary-color)] text-center">
+      <h1 className="text-4xl font-bold mb-6 text-[var(--primary-color)] text-center">
         Get in Touch
       </h1>
       <div className="flex flex-col md:flex-row w-full gap-8 items-stretch">
@@ -43,7 +43,7 @@ export default function Contacts() {
             Send us a message
           </h2>
           <div className="flex-1 border-[5px] border-[var(--primary-color)] px-10 py-8 bg-white h-full">
-            
+
             <form
               ref={form}
               onSubmit={sendEmail}
