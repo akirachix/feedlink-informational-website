@@ -1,10 +1,12 @@
-import Image from "next/image";
+import FAQ from "./components/FAQ";
+import Contacts from "./components/Contacts";
 
 export default function Home() {
   return (
-    <div className="font-nunito grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20">
-      <h1 className="font-nunito">Welcome to FeedLink!!!</h1>
-
+    <div>
+      <FAQ/>
+      <Contacts/>
+      
     </div>
   );
 }
