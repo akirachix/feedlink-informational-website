@@ -7,7 +7,7 @@ interface FAQItem {
   answer: string;
 }
 
-const FAQITEMS: FAQItem[] = [
+const FAQItems: FAQItem[] = [
   {
     question: "How do I get started as a food producer?",
     answer: "Simply sign up on our platform, verify your business, and start listing your surplus inventory. We'll handle the rest!",
@@ -43,7 +43,7 @@ const FAQ = () => {
     ">
       <h1 className="text-4xl font-bold mb-6 text-[var(--primary-color)] text-center">Frequently Asked Questions</h1>
       
-      {FAQITEMS.map((item: FAQItem, index: number) => (
+      {FAQItems.map((item: FAQItem, index: number) => (
         <div key={index} className="mb-4 rounded-4xl overflow-hidden bg-[var(--secondary-color)]">
           <div 
             className="flex justify-between items-center cursor-pointer p-4"
