@@ -1,6 +1,6 @@
 'use client'
 import React from "react";
-
+import Image from "next/image";
 const Footer = () => {
 return (
 <footer className="bg-[var(--primary-color)]   px-4 sm:px-6 lg:px-8 py-10 text-white">
@@ -8,7 +8,10 @@ return (
 
 <div className="md:w-1/3 flex-shrink-0">
 <div className="flex items-center mb-4 space-x-2 ml-">
-<img src="/images/Logo.svg" alt="Logo" className="h-8 w-auto md:h-10" />
+<Image src="/images/Logo.svg" alt="Logo"  width={0}
+          height={0
+          }
+ className="h-8 w-auto md:h-10" />
 <span className="text-[var(--secondary-color)]   font-semibold text-2xl md:text-3xl lg:text-4xl">
 FEEDLINK
 </span>

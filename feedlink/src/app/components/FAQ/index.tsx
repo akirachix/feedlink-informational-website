@@ -10,7 +10,7 @@ interface FAQItem {
 const FAQItems: FAQItem[] = [
   {
     question: "How do I get started as a food producer?",
-    answer: "Simply sign up on our platform, verify your business, and start listing your surplus inventory. We'll handle the rest!",
+    answer: "Simply sign up on our platform, verify your business, and start listing your surplus inventory. We&apos;ll handle the rest!",
   },
   {
     question: "How do you ensure food safety?",
