@@ -12,7 +12,7 @@ export default function AboutUs() {
           About FeedLink
         </h1>
         <p className="text-2xl text-center text-black max-w-4xl mx-auto leading-relaxed">
-          We’re revolutionizing food waste reduction by creating intelligent connections between food producers, conscious consumers, and recycling facilities.
+          We&apos;re revolutionizing food waste reduction by creating intelligent connections between food producers, conscious consumers, and recycling facilities.
         </p>
       </header>
       <section className="py-20 px-6 md:px-24 lg:px-32 bg-white">
@@ -46,7 +46,7 @@ export default function AboutUs() {
               </div>
               <h3 className="text-2xl font-semibold text-[var(--secondary-color)] mb-2">Sustainability</h3>
               <p className="text-black md:text-xl lg:text-[16px]">
-                We're committed to creating a circular food economy that benefits both people and the planet through responsible resource management.
+                We&apos;re committed to creating a circular food economy that benefits both people and the planet through responsible resource management.
               </p>
             </div>
 

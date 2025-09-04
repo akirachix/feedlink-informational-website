@@ -55,7 +55,7 @@ export default function BuiltSection() {
           Ready to Join our Impact Network?
         </h3>
         <p className="mb-4">
-          Whether you're producing, consuming, or recycling food, our platform
+          Whether you&apos;re producing, consuming, or recycling food, our platform
           has solutions tailored to your needs and goals.
         </p>
         <Link href="#contacts">

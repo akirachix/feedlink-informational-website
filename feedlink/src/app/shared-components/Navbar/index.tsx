@@ -1,6 +1,7 @@
 
 "use client";
 import React, { useState } from "react";
+import Image from "next/image";
 const Navbar = () => {
   const [menuOpen, setMenuOpen] = useState(false);
   const navLinks = [
@@ -16,7 +17,13 @@ const Navbar = () => {
     <nav className="bg-[var(--primary-color)] py-4 sticky top-0 z-50 shadow-md">
       <div className="max-w-full mx-auto flex items-center justify-between px-4 sm:px-6 lg:px-8">
         <div className="flex items-center gap-2 lg:ml-1 sm:ml-1 whitespace-nowrap">
-          <img src="/images/Logo.svg" alt="Logo" className="h-8 w-auto lg:h-10" />
+          <Image src="/images/Logo.svg" alt="Logo" 
+          width={0}
+          height={0
+
+
+
+          } className="h-8 w-auto lg:h-10" />
           <span className="text-[var(--secondary-color)] font-semibold text-xl sm:text-2xl lg:text-4xl tracking-tight ">
             FEEDLINK
           </span>

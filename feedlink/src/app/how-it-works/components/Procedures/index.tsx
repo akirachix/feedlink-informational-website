@@ -20,7 +20,7 @@ export default function Procedures() {
           <div className="flex-1 space-y-4">
             <h2 className="text-2xl font-bold text-[var(--primary-color)]">Inventory Import</h2>
             <p className="text-black">
-              Food generators upload inventory data (Excel/CSV) from POS/IMS systems. Auto-categorization into 'Available for sale' vs 'Waste for recycling' with smart discount rules.
+              Food generators upload inventory data (Excel/CSV) from POS/IMS systems. Auto-categorization into &apos; Available for sale&apos;vs &apos;Waste for recycling&apos; with smart discount rules.
             </p>
             <ul className="list-disc pl-5 space-y-2 text-black">
               <li>Upload once daily/weekly</li>

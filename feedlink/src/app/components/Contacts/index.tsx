@@ -106,7 +106,7 @@ export default function Contacts() {
           <div className="flex-1 border-[5px] border-[var(--secondary-color)] px-10 py-8 bg-white h-full">
             <p className="text-2xl font-normal mb-8 leading-relaxed">
               Have questions about our platform? Need support? Want to partner
-              with us? We're here to help and would love to hear from you.
+              with us? We&apos;re here to help and would love to hear from you.
             </p>
             <div className="flex flex-col gap-6">
               <div className="flex items-center gap-3">
