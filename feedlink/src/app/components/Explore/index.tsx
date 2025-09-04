@@ -10,7 +10,7 @@ import {
 
 export default function BuiltSection() {
   return (
-    <main className=" px-4 md:px-16">
+    <main id="explore" className=" px-4 md:px-16">
       <header className="text-center mb-12 p-6 md:p-12">
         <h1 className="text-4xl font-extrabold text-[var(--primary-color)]    ">
           Built for <span className="text-[var(--secondary-color)]  ">Everyone</span>
