@@ -1,5 +1,6 @@
 'use client';
 import { ReactNode } from 'react';
+
 export default function Button({
   children,
   variant = 'primary',
@@ -9,16 +10,20 @@ export default function Button({
   variant?: 'primary' | 'secondary';
   onClick?: () => void;
 }) {
-  const base = 'px-6 py-2.5 rounded-full font-semibold text-base xs:text-lg min-w-[200px] shadow transition-colors duration-300';
-  const styles =
-    variant === 'primary'
-      ? "bg-[var(--secondary-color)] text-white font-semibold px-6 py-3 rounded-full hover:bg-white hover:text-orange-500 transition-colors"
-      : "border-2 border-[var(--secondary-color)] bg-white text-[var(--secondary-color)] font-semibold px-6 py-3 rounded-full hover:bg-[var(--secondary-color)] hover:text-white transition-colors";
+  const base = 'px-6 py-3 rounded-full font-semibold text-base xs:text-lg min-w-[200px] shadow-md transition-all duration-300 cursor-pointer hover:shadow-lg active:scale-95 focus:outline-none focus:ring-2 focus:ring-offset-2';
+
+  const variants = {
+    primary: 'bg-[var(--secondary-color)] text-white hover:bg-white hover:text-orange-500 focus:ring-white',
+    secondary:
+      'border-2 border-[var(--secondary-color)] bg-white text-[var(--secondary-color)] hover:bg-[var(--secondary-color)] hover:text-white focus:ring-[var(--secondary-color)]',
+  };
+
   return (
     <button
-      className={`${base} ${styles}`}
+      className={`${base} ${variants[variant]}`}
       onClick={onClick}
       type="button"
+      aria-label={typeof children === 'string' ? children : undefined}
     >
       {children}
     </button>
