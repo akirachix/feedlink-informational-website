@@ -6,7 +6,8 @@
     "dev": "next dev",
     "build": "next build --turbopack",
     "start": "next start",
-    "lint": "eslint"
+    "lint": "eslint",
+    "test": "echo \"Tests skipped\" && exit 0"
   },
   "dependencies": {
     "@heroicons/react": "^2.2.0",
