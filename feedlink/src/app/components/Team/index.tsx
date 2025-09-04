@@ -51,7 +51,7 @@ function TeamSection() {
   const lastRow = teamMembers.slice(3);
 
   return (
-    <section>
+    <section id='team'>
       <div className="md:max-w-4xl xl:max-w-7xl mx-auto text-center ">
         <h1 className="text-3xl md:text-4xl font-bold text-[var(--primary-color)] mt-10 mb-12">
           Meet the Team Behind

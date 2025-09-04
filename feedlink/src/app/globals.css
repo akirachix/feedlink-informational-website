@@ -1,4 +1,5 @@
 @import "tailwindcss";
+@tailwind utilities;
 
 :root {
   --background: #ffffff;
@@ -11,7 +12,8 @@
   --font-sans: var(--font-geist-sans);
   --font-mono: var(--font-geist-mono);
   --font-primary: 'Nunito', sans-serif;
-  --primary-color: oklch(45.3% 0.124 130.933)    ;
+
+  --primary-color: oklch(45.3% 0.124 130.933);
   --secondary-color: oklch(66.6% 0.179 58.318);
 }
 
@@ -29,4 +31,3 @@ body {
   font-family: var(--font-primary);
  
 }
-  
